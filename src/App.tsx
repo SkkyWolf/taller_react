@@ -1,24 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import SongStyle from './scrSong'; 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SongStyle
+        title="Nombre de la Canción"
+        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consectetur animi impedit dolorum! Ipsam officiis ab ex corrupti dolor neque dignissimos assumenda? Illo voluptatibus deserunt in ipsa facere animi possimus!"
+        imageUrl="https://picsum.photos/100/100/"
+      />
     </div>
   );
 }
